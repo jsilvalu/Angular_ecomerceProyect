@@ -1,6 +1,12 @@
-# PlatziStore
+# eComerce shop - Learning Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+
+## IMPORTANT
+
+
+Unzip the compressed file "node_modules.rar" to be able to use the project. This compressed file has all the angular components necessary for the construction and execution of the project.
+
 
 ## Development server
 
