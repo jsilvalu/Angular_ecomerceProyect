@@ -1,0 +1,24 @@
+
+
+<mat-grid-list  cols="2" rowHeight="1:1">
+  <mat-grid-tile>
+    <img [src]="product.image" alt="">
+    
+  </mat-grid-tile>
+  <mat-grid-tile>
+
+    <div *ngIf="product">
+      <div>
+        <ul>
+          <h1>{{ product.title }}</h1>
+          <h3>{{ product.price | currency }}</h3>
+        </ul>
+        <h5>{{ product.description }}</h5>
+      </div>
+      <button (click)="createProduct()">crear</button>
+      <button (click)="updateProduct()">update</button>
+      <button (click)="deleteProduct()">delete</button>
+    </div>
+  </mat-grid-tile>
+
+</mat-grid-list>
